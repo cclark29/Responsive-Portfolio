@@ -15,14 +15,14 @@ header {
 
 
 h1{
-      font-family:
-Georgia, 'Times New Roman', 'Times', 'serif';
-
+font-family:Georgia, 'Times New Roman', 'Times', 'serif';
 background-color:#4aaaa5;
+padding-top:16px;
 width: 20%;
-padding:20px; 
-margin-left:155px;
+padding-left:5px; 
+margin-left:122px;
 height:72px;
+
 }
 
 h2{ 
@@ -34,7 +34,7 @@ h2{
 
 }
 
-/*gray lines acros page*/
+/*gray lines across page*/
 #topline1{
       width: 900px;
       height:3px;
@@ -101,9 +101,10 @@ ul {
 
 body{
  
-      background-image: url("../images/45degreee_fabric.png");
+      background-image: url("45degreee_fabric.png");
       background-repeat:no-repeat;
       background-size:cover;
+      background-attachment:fixed;
       font-family: 'arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
       color: #777777;
           
@@ -145,16 +146,28 @@ body{
 
 }
 
+/* layout for pictures*/
+.best{
+      margin-bottom: 25px;
+      margin-left: 20px;
+}
+.black{
+      margin-top: 1px;
+      margin-left: 19px;
+}
+.ants{
+      margin-top: 20px;
+      margin-left: 18px;
+}
+.example{
+     margin-left:4px;
 
+}
+.race{
+      margin-left: 19px;
+      margin-top:20px;
 
- img{
-      float:left;
-      clear:both;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      margin-left: 25px
-
-    }  
+}
 
 
       
@@ -167,7 +180,7 @@ body{
 
 }
 
-/* Layout for pictures */
+/* Layout for picture text */
 
 
     
@@ -183,7 +196,8 @@ body{
       width: 250px;
       text-align: center;
       margin-left: 8%;
-      clear:both
+      clear:both;
+      left:10px;
       
 }
 
@@ -197,13 +211,15 @@ body{
             position: absolute;
             background-color: #4aaaa5;
             color: white;
-            margin-top: 24%;
+            margin-top: 15%;
             height: 30px;
             padding: 5px;
             width: 250px;
             text-align: center;
-            margin-left: 4%;
-            clear:both
+            margin-left: 15px;
+            clear:both;
+            left:0px;
+            top :125px
       }
 
 
@@ -219,8 +235,9 @@ body{
     padding: 5px;
     width: 250px;
     text-align: center;
-    margin-left: 8%;
-    clear:both
+    margin-left: 15px;
+    clear:both;
+    left:0px;
       
 }
 
@@ -238,6 +255,8 @@ body{
       text-align: center;
       margin-left: 4%;
       clear:both;
+      top:105px;
+      left:7px;
       
 }
 
@@ -251,8 +270,10 @@ body{
       padding: 5px;
       width: 250px;
       text-align: center;
-      margin-left:3.55%;
+      margin-left:15px;
       clear:both;
+      left:0px;
+      
       
 }
 /*Picture layout Done*/
@@ -319,8 +340,7 @@ button{
     height:10px;
     background:#4aaaa5; 
     position:absolute;
-    margin-left:3px;
-    margin-top:0%;
+    margin-top:-10px;
    
 
 }
@@ -345,9 +365,83 @@ footer {
       bottom:0;
       left: 0;
       width:100%;
-      margin:0 auto
+      margin:0 auto;
+}
+          
+
+/***************************************
+		      RESPONSIVE
+****************************************/
+
+@media screen and (max-width: 992px) {
+
+      /*Tablet*/
+
+
+h1{
+      width: 31%;
+      margin-left: 99px;
+}
+
+   
+.black{
+      margin-left: 56px; 
 
 }
-   
-           
 
+.example{
+      margin-left: 46px;
+}
+
+.text-wrapper{
+      top: 36px;
+      left: 16px;
+
+}
+.text-wrapper3{
+     top:38px; 
+}
+.text-wrapper5{
+      top:38px;
+}
+
+}
+@media screen and (max-width: 767px) {
+
+      /*Phone*/
+
+      h1{
+            width: 100%;
+            margin-left: -16px;
+            padding-left: 127px;
+
+      }
+      
+         
+      .black{
+            margin-left: 56px; 
+      
+      }
+      
+      .example{
+            margin-left: 46px;
+      }
+      
+      .text-wrapper{
+            top: 36px;
+            left: 16px;
+      
+      }
+      .text-wrapper3{
+           top:38px; 
+      }
+      .text-wrapper5{
+            top:38px;
+      }
+      .navbar{
+            width:503px
+      }
+      .body{
+      background-image: url(45degreee_fabric.png);
+      }
+      }     
