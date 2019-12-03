@@ -18,8 +18,8 @@ h1{
 font-family:Georgia, 'Times New Roman', 'Times', 'serif';
 background-color:#4aaaa5;
 padding-top:16px;
-width: 20%;
-padding-left:5px; 
+width: 237px;
+padding-left:18px; 
 margin-left:122px;
 height:72px;
 
@@ -28,7 +28,7 @@ height:72px;
 h2{ 
       font-family: Georgia, 'Times New Roman', 'Times', 'serif' ;
       color:#4aaaa5;
-      margin-left:28px;
+      margin-left:7px;
 
 
 
@@ -46,7 +46,7 @@ h2{
 }
 
 #topline2{
-      width: 900px;
+      width: 491px;
       height:3px;
       background:#dddddd; 
       margin-bottom:26px;
@@ -126,12 +126,12 @@ body{
       clear:both;
 }
 
-.box-container2 {
-      width: 960px;
-      margin:auto;
-      height:800px;
+.container-2 {
+      width: 581px;
+      margin-left: 196px;
+      height:750px;
       background: white;
-    
+      
       
 
 }
@@ -149,18 +149,19 @@ body{
 /* layout for pictures*/
 .best{
       margin-bottom: 25px;
-      margin-left: 20px;
+      margin-left: 3px;
 }
 .black{
-      margin-top: 1px;
-      margin-left: 19px;
+      
+      margin-left: 87px;
+      
 }
 .ants{
       margin-top: 20px;
       margin-left: 18px;
 }
 .example{
-     margin-left:4px;
+     margin-left:81px;
 
 }
 .race{
@@ -190,14 +191,14 @@ body{
       position: absolute;
       background-color: #4aaaa5;
       color: white;
-      margin-top: 49%;
+      margin-top: 82%;
       height: 30px;
       padding: 5px;
       width: 250px;
       text-align: center;
-      margin-left: 8%;
+      margin-left: 15px;
       clear:both;
-      left:10px;
+      left:3px;
       
 }
 
@@ -219,7 +220,7 @@ body{
             margin-left: 15px;
             clear:both;
             left:0px;
-            top :125px
+            top :150px
       }
 
 
@@ -230,7 +231,7 @@ body{
       position: absolute;
     background-color: #4aaaa5;
     color: white;
-    margin-top: 48%;
+    margin-top: 158px;
     height: 30px;
     padding: 5px;
     width: 250px;
@@ -247,15 +248,15 @@ body{
       position: absolute;
       background-color: #4aaaa5;
       color: white;
-      margin-top: 24%;
+      margin-top: 110px;
       height: 30px;
       padding: 5px;
       width: 250px;
       font: center;
       text-align: center;
-      margin-left: 4%;
+      margin-left: 4.2%;
       clear:both;
-      top:105px;
+      top:48px;
       left:7px;
       
 }
@@ -265,7 +266,7 @@ body{
       position: absolute;
       background-color: #4aaaa5;
       color: white;
-      margin-top: 16%;
+      margin-top: 157px;
       height: 30px;
       padding: 5px;
       width: 250px;
@@ -385,30 +386,49 @@ h1{
 
    
 .black{
-      margin-left: 56px; 
+      left: 26px; 
 
 }
 
 .example{
-      margin-left: 46px;
+      left: 32px;
 }
 
 .text-wrapper{
-      top: 36px;
-      left: 16px;
+      top: 0px;
+      left: 3px;
 
 }
 .text-wrapper3{
-     top:38px; 
+     top: 1px; 
 }
 .text-wrapper5{
-      top:38px;
+      top: 3px;
 }
 
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
       /*Phone*/
+
+      .container-2{
+            margin-left: 43px;
+            margin-right: 0px;
+            height: 1195px;
+            width: 449px;
+            margin-top: 38px;
+      }
+
+      .navbar{
+            top: 31px;
+            left: 45px;
+            padding-right: 19px;
+            border-right-width: 10px;
+            margin-left: 0px;
+            height: 95px;
+            width: 481px;
+            padding-bottom: 15px;
+      }
 
       h1{
             width: 100%;
@@ -416,27 +436,72 @@ h1{
             padding-left: 127px;
 
       }
+      h2{
+            margin-left: 19px;   
+      }
+      #topline2{
+            width:392px
+
+      }
+
+      /* pic locations */
       
+      .best{
+            margin-left: 83px; 
+      }
          
       .black{
-            margin-left: 56px; 
-      
+            margin-top: 20px;
+            margin-left: 80px;
       }
+      .ants{
+            margin-left: 94px;
+      }
+      
       
       .example{
-            margin-left: 46px;
+            margin-top: 20px;
+            margin-left: 0px;
+      }
+      .race{
+            top: 37px;
+            margin-left: 91px;
       }
       
+
+      /*text places*/
       .text-wrapper{
-            top: 36px;
-            left: 16px;
+            top: 156px;
+            right: 65px;
+            width: 250px;
+            height: 34px;
+            bottom: 0px;
+            margin-top: 0px;
+            left: 4px;
+            margin-left: 94px;
+      }
+      .text-wrapper2{
+            top: 152px;
+            margin-top: 0px;
+      }
       
-      }
       .text-wrapper3{
-           top:38px; 
+            margin-top: 0px;
+            top: 155px;
       }
+      .text-wrapper4{
+            margin-top: 0px;
+            top: 157px;
+            margin-left: 0px;
+            left: 15px;
+      }
+
+      
       .text-wrapper5{
-            top:38px;
+            margin-top: 0px;
+            margin-left: 0px;
+            left: 15px;
+            top: 153px;
       }
       .navbar{
             width:503px
