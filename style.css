@@ -117,7 +117,7 @@ body{
 
 /* backgrounds*/
 
-.box-container {
+.container-1 {
       width: 960px;
       margin:auto;
       height:400px;
@@ -136,10 +136,10 @@ body{
 
 }
 
-.box-container3 {
+.container-3 {
       width: 960px;
       margin:auto;
-      height:500px;
+      height:537px;
       background: white;
       text-align: left;
       padding-top: 32px;
@@ -282,7 +282,10 @@ body{
 /* Contact Form*/
 
 form{
-      margin-top: 100px;
+      margin-top: 33px;
+      margin-right: 42px;
+      width: 774px;
+      margin-left: 48px;
       
 }
 
@@ -383,8 +386,34 @@ h1{
       width: 31%;
       margin-left: 99px;
 }
+.container-1{
+      width: 675px;
+      margin-right: 274px;    
+}
+.container-3{
+      width: 760px;
+      margin: auto;
+      height: 627px;
+      background: white;
+      text-align: left;
+      padding-top: 32px;
+}
 
-   
+input{
+      width: 500px;
+
+}
+textarea{
+      width:500px;
+}
+
+
+#topline3{
+      width:680px;
+
+}
+
+
 .black{
       left: 26px; 
 
@@ -406,11 +435,35 @@ h1{
       top: 3px;
 }
 
+#subtext{
+      padding-left: 0px;
+      padding-right: 277px; 
+
 }
+#subtext2{
+      width: 965px;
+      padding-right: 283px;
+      padding-left: 30px;
+}
+#aboutpic{
+      padding-left: 14px;
+      padding-right: 0px;
+      height: 200px;
+      width: 214px;  
+}
+
+
+
 @media screen and (max-width: 768px) {
 
-      /*Phone*/
+      /********phone***************/
+      
+      .container-1{
+            margin-top: 56px;
+            height: 700px;
+            margin-left:7px;
 
+      }
       .container-2{
             margin-left: 43px;
             margin-right: 0px;
@@ -509,4 +562,46 @@ h1{
       .body{
       background-image: url(45degreee_fabric.png);
       }
-      }     
+      
+      #subtext{
+            padding-left: 28px;
+            padding-right: 437px;
+            margin-top: 83px;
+        }
+        #subtext{
+            padding-left: 28px;
+            padding-right: 437px;
+            margin-top: 83px;
+            left:13px
+        }
+        #subtext2{
+            padding-left: 30px;
+            padding-right: 425px;
+            left:13px
+            
+        }
+
+        input{
+            width: 413px;
+      
+      }
+      textarea{
+            width:413px   
+      }
+      img{
+            padding-left: 14px;
+            padding-right: 0px;
+            width: 508px;
+            height: 285px;
+      }
+      #topline1 {
+            width: 507px;
+            height: 3px;
+            background: #dddddd;
+            margin-bottom: 5px;
+            clear: both;
+            margin-left: 20px;
+            padding-right: 30px;
+}
+}
+}
