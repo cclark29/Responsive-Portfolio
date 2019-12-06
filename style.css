@@ -18,10 +18,10 @@ h1{
 font-family:Georgia, 'Times New Roman', 'Times', 'serif';
 background-color:#4aaaa5;
 padding-top:16px;
-width: 237px;
+width: 22%;
 padding-left:18px; 
-margin-left:122px;
-height:72px;
+margin-left:77px;
+height:77px;
 
 }
 
@@ -69,6 +69,11 @@ h2{
 
 /*Nav bar*/
 
+
+.navbar-nav{
+      margin-top: 0px;
+
+}
 
 ul {  
  
@@ -128,7 +133,7 @@ body{
 
 .container-2 {
       width: 581px;
-      margin-left: 196px;
+      margin-left: 155px;
       height:750px;
       background: white;
       
@@ -360,7 +365,14 @@ button{
     margin-top:0%;
 
 }
-
+#subtext{
+      padding-left: 32px;
+      padding-right: 107px;
+}
+#subtext2{
+      padding-left: 34px;
+      padding-right: 98px;
+}
 footer {
       text-align:center;
       background-color: #666666;
@@ -381,14 +393,22 @@ footer {
 
       /*Tablet*/
 
+.navbar{
+      width: 993px;
+      padding-left: 0px;
+      padding-right: 47px;
+      padding-bottom: 0px;
+}  
+
 
 h1{
-      width: 31%;
-      margin-left: 99px;
+      width: 33%;
+      margin-left: -86px;
 }
 .container-1{
       width: 675px;
-      margin-right: 274px; 
+      margin-top: 42px;
+      margin-right: 233px;
       
 }
 .container-3{
@@ -437,14 +457,15 @@ textarea{
 }
 
 #subtext{
-      padding-left: 0px;
-      padding-right: 277px; 
-
+      padding-right: 288px;
+      height: 198px;
+      padding-left: 52px;
 }
 #subtext2{
       width: 965px;
       padding-right: 283px;
       padding-left: 30px;
+      margin-top: 39px;
 }
 #aboutpic{
       padding-left: 14px;
@@ -452,6 +473,10 @@ textarea{
       height: 200px;
       width: 214px;  
 
+}
+img{
+      width: 250px;
+      height: 227px;  
 }
 
 
@@ -619,7 +644,6 @@ textarea{
             clear: both;
             margin-left: 20px;
             padding-right: 30px;
-}
 }
 }
 }
