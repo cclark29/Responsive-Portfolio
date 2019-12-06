@@ -388,7 +388,8 @@ h1{
 }
 .container-1{
       width: 675px;
-      margin-right: 274px;    
+      margin-right: 274px; 
+      
 }
 .container-3{
       width: 760px;
@@ -450,8 +451,8 @@ textarea{
       padding-right: 0px;
       height: 200px;
       width: 214px;  
-}
 
+}
 
 
 @media screen and (max-width: 768px) {
@@ -460,9 +461,9 @@ textarea{
       
       .container-1{
             margin-top: 56px;
-            height: 700px;
+            height: 743px;
             margin-left:7px;
-
+            
       }
       .container-2{
             margin-left: 43px;
@@ -484,9 +485,9 @@ textarea{
       }
 
       h1{
-            width: 100%;
-            margin-left: -16px;
-            padding-left: 127px;
+            margin-left: 0px;
+            width: 270px;
+            height: 100px;
 
       }
       h2{
@@ -557,7 +558,15 @@ textarea{
             top: 153px;
       }
       .navbar{
-            width:503px
+            top: 20px;
+            padding-bottom: 30px;
+            padding-right: 2px;
+            padding-left: 0px;
+            width: 546px;
+            height: 105px;
+            left: 0px;
+            right: 16px;
+            padding-top: 5px;
       }
       .body{
       background-image: url(45degreee_fabric.png);
@@ -565,19 +574,21 @@ textarea{
       
       #subtext{
             padding-left: 28px;
-            padding-right: 437px;
-            margin-top: 83px;
+            padding-right: 469px;
+            margin-top: 14px;
         }
         #subtext{
             padding-left: 28px;
             padding-right: 437px;
-            margin-top: 83px;
-            left:13px
+            
         }
         #subtext2{
-            padding-left: 30px;
-            padding-right: 425px;
-            left:13px
+            padding-left: 14px;
+            padding-right: 445px;
+            padding-bottom: 100px;
+            margin-top: 19px;
+            margin-left:14px;
+            
             
         }
 
@@ -588,20 +599,27 @@ textarea{
       textarea{
             width:413px   
       }
-      img{
-            padding-left: 14px;
-            padding-right: 0px;
-            width: 508px;
-            height: 285px;
+
+      #aboutpic{
+            width: 470px;
+            height: 306px;
+            
       }
+      .img{
+            width: 492px;
+            height: 297px;
+           
+}
+
       #topline1 {
-            width: 507px;
+            width: 479px;
             height: 3px;
             background: #dddddd;
             margin-bottom: 5px;
             clear: both;
             margin-left: 20px;
             padding-right: 30px;
+}
 }
 }
 }
